@@ -33,6 +33,7 @@
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="ReaderLibTests.cpp" />
+    <ClCompile Include="ImageReaderTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
@@ -154,5 +155,9 @@
     <Text Include="Control\UCIFastReaderSimpleDataLoop_Control.txt">
       <Filter>Control</Filter>
     </Text>
+    <Text Include="Data\ImageReaderSimple_map.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\ImageReaderSimple_Config.cntk" />
   </ItemGroup>
 </Project>
